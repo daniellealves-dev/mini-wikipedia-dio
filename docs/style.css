@@ -1,0 +1,154 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  background-color: #f5f2fa;
+}
+
+
+#imagem {
+    width: 200px;
+    height: 230px;
+    image-rendering: auto;
+    border: 10px ridge #f8f7fb;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+
+}
+
+.logo-msg {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    
+    
+}
+
+.mensagem h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  margin: 0;
+  line-height: 1.1;
+  color: #6a4f9a; 
+
+}
+
+p {
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  
+}
+
+ul li a {
+  text-decoration: none; 
+  
+        
+}
+
+.titulo {
+  text-shadow: 10px 10px 10px gray;
+  font-size: 30px;
+  color: #6a4f9a;
+  margin-left: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start; /* topo */
+  padding-left: 20px;
+  margin-right: 20px;
+  gap: 10px;
+  
+
+}
+
+.menu a {
+  color: #6a4f9a;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.menu a:hover {
+  color: #563e7d;
+  transform: translateX(3px); 
+}
+
+.menu a:visited {
+  color: #b49ddb;
+}
+
+.menu a:hover {
+  background-color: #f5f2fa;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.hopper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: #f5f2fa; 
+  color: #6a4f9a;            
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  margin-top: 40px;
+  border-top: 1px solid #ddd;
+}
+
+.btn-indice {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 12px;
+  background-color: #222;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-indice:hover {
+  background-color: #444;
+}
+
+.input-busca {
+  padding: 8px 12px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-busca:focus {
+  border-color: #6a4f9a;
+  box-shadow: 0 0 5px rgba(106, 79, 154, 0.5);
+  outline: none;
+}
+
+
+
